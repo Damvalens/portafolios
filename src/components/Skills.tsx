@@ -28,21 +28,21 @@ const Skills: React.FC = () => {
       category: 'Business Intelligence',
       icon: <BarChart3 className="h-8 w-8" />,
       color: 'bg-purple-500',
-      skills: ['Tableau', 'QlikView', 'SSRS', 'KPIs', 'Reporting', 'Data Visualization'],
+      skills: ['Power BI', 'DAX', 'Power Query', 'Apache Superset', 'SQL', 'KPIs', 'Reporting', 'Data Visualization'],
       description: 'Creación de reportes ejecutivos y visualizaciones para la toma de decisiones.'
     },
     {
       category: 'Análisis de Datos',
       icon: <TrendingUp className="h-8 w-8" />,
       color: 'bg-orange-500',
-      skills: ['Python', 'R', 'Pandas', 'Statistical Analysis', 'Forecasting', 'Machine Learning'],
+      skills: ['Python', 'Pandas', 'Statistical Analysis', 'Forecasting', 'Machine Learning'],
       description: 'Análisis estadístico, modelado predictivo y generación de insights.'
     },
     {
       category: 'Herramientas Office',
       icon: <FileSpreadsheet className="h-8 w-8" />,
       color: 'bg-teal-500',
-      skills: ['Excel Avanzado', 'VBA', 'Power Query Excel', 'Pivot Tables', 'Macros', 'Solver'],
+      skills: ['Excel Avanzado', 'VBA', 'Power Query Excel', 'Pivot Tables', 'Macros'],
       description: 'Automatización y análisis avanzado en Excel para soluciones empresariales.'
     }
   ];

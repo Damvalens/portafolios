@@ -5,24 +5,23 @@ const Experience: React.FC = () => {
   const experiences = [
     {
       title: 'Senior Business Intelligence Analyst',
-      company: 'Empresa Tecnológica',
-      period: '2022 - Presente',
+      company: 'Petroleos del Sur S.A',
+      period: 'Junio 2024 - Presente',
       description: 'Liderazgo en la implementación de soluciones BI empresariales, desarrollo de dashboards ejecutivos y optimización de procesos de análisis de datos.',
       achievements: [
         'Implementación de dashboard ejecutivo que redujo el tiempo de reporting en 60%',
         'Desarrollo de 15+ reportes automatizados con Power BI',
-        'Optimización de consultas SQL mejorando performance en 40%',
-        'Capacitación a 20+ usuarios en herramientas de BI'
+        'Optimización de consultas SQL mejorando performance en 40%'
       ]
     },
     {
       title: 'Analista de Datos',
-      company: 'Corporación Financiera',
-      period: '2020 - 2022',
+      company: 'Marketplace S.A.',
+      period: 'Marzo 2023 - Junio 2024',
       description: 'Análisis de datos financieros, desarrollo de modelos predictivos y creación de reportes regulatorios.',
       achievements: [
-        'Desarrollo de modelo predictivo para análisis de riesgo crediticio',
-        'Automatización de 10+ reportes regulatorios con SSIS',
+        'Implementación de dashboard ejecutivo',
+        'Automatización de reportes con excel VBA',
         'Creación de data warehouse para análisis histórico',
         'Reducción de 50% en tiempo de preparación de datos'
       ]
