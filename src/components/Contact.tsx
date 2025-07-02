@@ -34,14 +34,14 @@ const Contact: React.FC = () => {
     {
       icon: <Mail className="h-5 w-5" />,
       label: 'Email',
-      value: 'celso.abente@email.com',
-      href: 'mailto:celso.abente@email.com'
+      value: 'celso.abente16@gmail.com',
+      href: 'mailto:celso.abente16@gmail.com'
     },
     {
       icon: <Phone className="h-5 w-5" />,
       label: 'Teléfono',
-      value: '+595 (XX) XXX-XXXX',
-      href: 'tel:+595XXXXXXXX'
+      value: '+595 (972) 163-360',
+      href: 'tel:+595972163360'
     },
     {
       icon: <MapPin className="h-5 w-5" />,
@@ -55,19 +55,19 @@ const Contact: React.FC = () => {
     {
       icon: <Linkedin className="h-5 w-5" />,
       label: 'LinkedIn',
-      href: 'https://linkedin.com/in/celso-abente',
+      href: 'https://www.linkedin.com/in/celso-abente-32625b16a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
       color: 'hover:text-blue-600'
     },
     {
       icon: <Github className="h-5 w-5" />,
       label: 'GitHub',
-      href: 'https://github.com/celso-abente',
+      href: 'https://github.com/Damvalens',
       color: 'hover:text-gray-900'
     },
     {
       icon: <MessageCircle className="h-5 w-5" />,
       label: 'WhatsApp',
-      href: 'https://wa.me/595XXXXXXXX',
+      href: 'https://wa.me/595972163360',
       color: 'hover:text-green-600'
     }
   ];
