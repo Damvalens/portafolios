@@ -1,10 +1,19 @@
 import React from 'react';
 import { Database, TrendingUp, BarChart3, Download } from 'lucide-react';
 
+// SVG pattern encoded as a data URI to create a subtle BI-themed background
+const biPattern =
+  'data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMjAiIGhlaWdodD0iMTIwIiB2aWV3Qm94PSIwIDAgMTIwIDEyMCI+CiAgPHJlY3Qgd2lkdGg9IjEyMCIgaGVpZ2h0PSIxMjAiIGZpbGw9IiNmMWY1ZjkiLz4KICA8ZyBmaWxsPSJub25lIiBzdHJva2UtbGluZWNhcD0icm91bmQiIHN0cm9rZS13aWR0aD0iOCI+CiAgICA8cGF0aCBzdHJva2U9IiMzYjgyZjYiIGQ9Ik0xMCAxMTBWNzAiLz4KICAgIDxwYXRoIHN0cm9rZT0iIzBlYTVlOSIgZD0iTTMwIDExMFY1MCIvPgogICAgPHBhdGggc3Ryb2tlPSIjMjJjNTVlIiBkPSJNNTAgMTEwVjMwIi8+CiAgICA8cGF0aCBzdHJva2U9IiNmOTczMTYiIGQ9Ik03MCAxMTBWNjAiLz4KICAgIDxwYXRoIHN0cm9rZT0iI2E4NTVmNyIgZD0iTTkwIDExMFY0MCIvPgogIDwvZz4KPC9zdmc+Cg==';
+
 const Hero: React.FC = () => {
   return (
-    <section id="inicio" className="min-h-screen flex items-center justify-center bg-gradient-to-br from-blue-50 via-white to-teal-50 pt-20">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+    <section
+      id="inicio"
+      className="relative min-h-screen flex items-center justify-center pt-20 bg-[length:300px_300px]"
+      style={{ backgroundImage: `url(${biPattern})` }}
+    >
+      <div className="absolute inset-0 bg-gradient-to-br from-blue-50 via-white to-teal-50 opacity-90"></div>
+      <div className="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
         <div className="text-center space-y-8">
           <div className="space-y-4">
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold text-gray-900 leading-tight">
